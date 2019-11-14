@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1569271572 source:d:\info\paznici\main.cpp
+	<iostream>
+	<cmath>
+
