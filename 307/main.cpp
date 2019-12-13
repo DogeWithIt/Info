@@ -27,11 +27,7 @@ int main()
         else
             p = p*8%10;
     }
-
-    else
-    {
-        if(exp2 != exp5) p = 5;
-    }
+    else if(exp2 != exp5) p = 5;
 
     cout << p;
     return 0;
