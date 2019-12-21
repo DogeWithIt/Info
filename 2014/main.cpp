@@ -8,11 +8,8 @@ int main()
 {
     int salt, nr, Max = 0, Maxnr;
     while(fin >> nr >> salt)
-    {
-        fin >> nr >> salt;
-        if(salt >= Max)
+        if(salt > Max)
             Max = salt, Maxnr = nr;
-    }
 
     fout << Maxnr << '\n' << ceil(800.0/Max);
     return 0;
