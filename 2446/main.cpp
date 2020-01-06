@@ -5,7 +5,7 @@ ofstream fout("numere24.out");
 
 int main()
 {
-    int c, n;
+    long long int c, n;
     fin >> c;
 
     if(c == 1)
@@ -47,7 +47,7 @@ int main()
             fout << 153;
         else if(k == 3)
             fout << 1530;
-        else if(k==4)
+        else if(k == 4)
             fout << 16110;
 
         else
@@ -57,7 +57,7 @@ int main()
                 fout << 9;
             fout << 1;
             for(int i = 1; i <= (k-1)/2; i++)
-                fout << 9;
+                fout << 0;
         }
     }
     return 0;
